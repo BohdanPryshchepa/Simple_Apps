@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="number-generator row jcc aic">
+      <div class="container column jcc aic">
+        <div id="random">Random Number</div>
+        <div class="number js-number">10</div>
+        <div class="parametrs column jcfs aic js-parametrs">
+          <div class="radio ">
+            <div class="parameter">
+              <input type="radio" id="range-input" class="radio__input js-range-input" name="parameter" checked="checked">
+              <label for="range-input" class="radio__label">From a range of numbers</label>
+            </div>
+            <div class="range">
+              <span>from</span>
+              <input type="number" class="min-number js-min-number" min="1" max="30" step="1" value="1">
+              <span>to</span>
+              <input type="number" class="max-number js-max-number" min="1" max="30" step="1" value="12">
+
+            </div>
+            <div class="parameter">
+              <input type="radio" id="list-input" class="radio__input js-list-input" name="parameter">
+              <label for="list-input" class="radio__label">From the list</label>
+            </div>
+            <input  class="list-numbers js-list-numbers">
+          </div>
+      </div>
+            <button class="btn js-btn">Generate</button>
+        </div>
+    </div>  
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+      <div class="sound_player row jcc aic">
+        <div class="container row jcc aic">
+          <div class="buttons row jcsa aic">
+            <button class="btn js-btn" data-sound="WorkIt">Work It</button>
+            <button class="btn js-btn" data-sound="MakeIt">Make It</button>
+            <button class="btn js-btn" data-sound="DoIt">Do It</button>
+            <button class="btn js-btn" data-sound="MakesUs">Makes Us</button>
+            <button class="btn js-btn" data-sound="Harder">Harder</button>
+            <button class="btn js-btn" data-sound="Better">Better</button>
+            <button class="btn js-btn" data-sound="Faster">Faster</button>
+            <button class="btn js-btn" data-sound="Stronger">Stronger</button>
+            <button class="btn js-btn" data-sound="MoreThan">More Than</button>
+            <button class="btn js-btn" data-sound="Hour">Hour</button>
+            <button class="btn js-btn" data-sound="Our">Our</button>
+            <button class="btn js-btn" data-sound="Never">Never</button>
+            <button class="btn js-btn" data-sound="Ever">Ever</button>
+            <button class="btn js-btn" data-sound="After">After</button>
+            <button class="btn js-btn" data-sound="WorkIs">Work Is</button>
+            <button class="btn js-btn" data-sound="Over">Over</button>
+          </div>
+          <div class="sounds">
+            <audio src="audio/WorkIt.m4a" id="WorkIt"></audio>
+            <audio src="audio/MakeIt.m4a" id="MakeIt"></audio>
+            <audio src="audio/DoIt.m4a" id="DoIt"></audio>
+            <audio src="audio/MakesUs.m4a" id="MakesUs"></audio>
+            <audio src="audio/Harder.m4a" id="Harder"></audio>
+            <audio src="audio/Better.m4a" id="Better"></audio>
+            <audio src="audio/Faster.m4a" id="Faster"></audio>
+            <audio src="audio/Stronger.m4a" id="Stronger"></audio>
+            <audio src="audio/MoreThan.m4a" id="MoreThan"></audio>
+            <audio src="audio/Hour.m4a" id="Hour"></audio>
+              <audio src="audio/Our.m4a" id="Our"></audio>
+              <audio src="audio/Never.m4a" id="Never"></audio>
+              <audio src="audio/Ever.m4a" id="Ever"></audio>
+              <audio src="audio/After.m4a" id="After"></audio>
+              <audio src="audio/WorkIs.m4a" id="WorkIs"></audio>
+              <audio src="audio/Over.m4a" id="Over"></audio>
+            </div>
+          </div>
+        </div>
+
+        <div class="track row jcc aic">
+        <p class="music song" onClick="togglePlay()">click me to play the song</p>
+        <p class="music remix" onClick="togglePlayRemix()">click me to play the remix</p>
+        <audio id="song" src="./audio/Daft_Punk_-_Harder_Better_Faster_Stronger_47960299.mp3" autoplay></audio>
+        <audio id="remix" src="./audio/Daft Punk - Harder, Better, Faster, Stronger (dizer.net).mp3" autoplay></audio>
+        </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
